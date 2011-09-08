@@ -28,7 +28,7 @@ The `ZipCode` class is based on a MySQL table or view with the following fields:
 While the name of this table can be specified by the `mysql_table` class property,
 the default table name is `zip_code`.
 
-** Original Database (obsolete) **
+**Original Database (obsolete)**
 
 The original zip code database was derived from 2000 U.S. Census data and manually
 tweaked over the years when a zip code was missing or incorrect. This database
@@ -39,7 +39,7 @@ You can find the SQL script with the entire `zip_code` table in
 the command line, such as using phpMyAdmin, you will have to split the script
 into multiple files and upload them one at a time.
 
-** New Databases **
+**New Databases**
 
 There are numerous sources for U.S. zip code databases. Some are free and some 
 can be purchased. You can use one of these databases by either copying the 
